@@ -5,7 +5,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 1.414;
   color: var(--color-dark);
 }
@@ -24,37 +24,37 @@ h5,
 h6 {
   margin-bottom: .5rem;
   font-weight: 500;
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 .h1,
 h1 {
-  font-size: 2.5rem
+  font-size: 2.5rem;
 }
 
 .h2,
 h2 {
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 .h3,
 h3 {
-  font-size: 1.75rem
+  font-size: 1.75rem;
 }
 
 .h4,
 h4 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .h5,
 h5 {
-  font-size: 1.25rem
+  font-size: 1.25rem;
 }
 
 .h6,
 h6 {
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 p {
@@ -65,7 +65,7 @@ p {
 .small,
 small {
   font-size: 80%;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .link {

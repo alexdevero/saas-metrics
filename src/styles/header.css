@@ -1,0 +1,30 @@
+.nav,
+.nav-list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav li {
+  padding: 8px;
+}
+
+.nav a {
+  color: var(--color-black);
+  text-decoration: none;
+  transition: var(--tr-full);
+}
+
+.nav a:hover {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+.logo {
+  font-weight: 700;
+}
+

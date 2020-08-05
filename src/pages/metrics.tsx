@@ -4,6 +4,8 @@ import './../styles/metrics.css'
 
 import { metrics } from './../data/metrics'
 
+import { Modal } from './../components/modal'
+
 interface metricsUI {
   id: string;
   name: string;
@@ -16,6 +18,7 @@ export const Metrics = () => {
   const [shouldRefresh, setShouldRefresh] = useState(false)
   const [sorted, setSorted] = useState('none')
   const [filterQuery, setFilterQuery] = useState('')
+  const [isModalShown, setIsModalShown] = useState(false)
 
   useEffect(() => {
     setMetricsState(metrics)
@@ -54,6 +57,10 @@ export const Metrics = () => {
     setMetricsState(newState)
 
     setSorted('none')
+  }
+
+  const handleModalShown = (showModal: boolean) => {
+    setIsModalShown(showModal)
   }
 
   return (
@@ -102,6 +109,15 @@ export const Metrics = () => {
         ))}
         </div>
       </div>
+
+      <div className="d-flex justify-content-center mt-3">
+        <button
+          className="btn btn-primary btn-md"
+          onClick={() => handleModalShown(true)}
+        >Load More</button>
+      </div>
+
+      {isModalShown && <Modal handleModalShown={handleModalShown} />}
     </div>
   )
 }

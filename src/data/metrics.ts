@@ -34,7 +34,7 @@ export const metrics = [
   {
     id: 'saasm_0005',
     name: 'Conversion Rate to Customer',
-    description: '',
+    description: 'The conversion rate to customer is the number of total visitors converted to customer divided by the total number of visitors.',
     importance: ''
   },
   {
@@ -82,7 +82,7 @@ export const metrics = [
   {
     id: 'saasm_0013',
     name: 'Leads by Lifecycle Stage',
-    description: '',
+    description: 'Lead lifecycles are what inbound marketers use to determine and manage the life of a lead from the moment it first appears to the moment it becomes a paying customer (and beyond). It determines exactly at what stage along the buyer\'s journey each lead is. Tis helps to identify what inbound marketing tactics must be deployed in order to move the lead along to the next stage of the journey.',
     importance: ''
   },
   {
@@ -134,15 +134,9 @@ export const metrics = [
     importance: ''
   },
   {
-    id: 'saasm_0022',
-    name: 'Qualified Lead Velocity Rate (LVR)',
-    description: '',
-    importance: ''
-  },
-  {
     id: 'saasm_0023',
     name: 'Qualified Marketing Traffic',
-    description: '',
+    description: 'Qualified marketing traffic are typically prospects that has expressed some interest in your company by engaging with its content and provided identification details to convert into a known lead. These leads are qualified by predetermined standards of a “good fit” target and judged more likely to become a customer.',
     importance: ''
   },
   {

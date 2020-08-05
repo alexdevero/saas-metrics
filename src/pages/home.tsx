@@ -13,6 +13,6 @@ export const Home = () => (
       </div>
     </div>
 
-    <Link to="/metrics" className="btn btn-primary btn-round">View all metrics</Link>
+    <Link to="/metrics" className="btn btn-primary btn-round">See metrics</Link>
   </div>
 )

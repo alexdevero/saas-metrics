@@ -28,3 +28,22 @@
   font-weight: 700;
 }
 
+.header-mode-link {
+  min-width: 24px;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.header-mode-link:active,
+.header-mode-link:focus,
+.header-mode-link:hover {
+  outline: 0 !important;
+  border: 0;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.header-mode-link:hover {
+  color: #007bff !important;
+}

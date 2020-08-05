@@ -1,0 +1,59 @@
+:root {
+  --color-black: #282e3c;
+  --color-black-light: #9099b1;
+  --color-blue: #007bff;
+  --color-gray-darK: #495057;
+  --color-gray-light: #ccc;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --tr-full: all .25s ease-out;
+  --tr-part: .25s ease-out;
+  --radius: 4px;
+  --radius-big: 35px;
+  --radius-small: 2px;
+}
+
+body,
+#root,
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#root,
+.page,
+.page-wrapper {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.app {
+  text-align: center;
+}
+
+.page-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-wrapper {
+  text-align: center;
+}
+
+.divider {
+  width: 50px;
+  background-color: var(--color-gray-light);
+  height: 1px;
+}

@@ -1,0 +1,51 @@
+.donate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  max-width: 100%;
+  height: 45px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 0;
+}
+
+.donate-button img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.patreon-button,
+.paypal-button {
+    padding: 0 1rem;
+    color: #fff !important;
+    text-decoration: none !important;
+    position: relative;
+    top: -2px;
+}
+
+.patreon-button {
+  background: #f96854;
+}
+
+.paypal-button {
+  background: #00457c;
+}
+
+.paypal-button svg {
+  margin-right: 10px;
+  height: 17px;
+  width: 17px;
+  fill: #fff;
+}
+
+.patreon-button svg {
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
+}
+
+.buy-me-a-coffee-button {
+  background: #ff8241;
+}

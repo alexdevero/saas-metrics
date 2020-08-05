@@ -8,16 +8,24 @@ export const Subscribe = () => {
 
   const submitForm = () => {
     if (email.length > 0 && /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)) {
-      console.log(email)
       setErrorMessage('')
 
+      const formData = new FormData()
+      formData.append('email', email)
+
       axios
-        .post('url to php file', email)
+        .post('url to php file', formData)
         .then(res => {
+          console.log('foo');
+
           setEmail('')
           setSuccesMessage(res.data)
         })
-        .catch(err => setErrorMessage(err))
+        .catch(err => {
+          setErrorMessage(err)
+
+          console.log('err', err);
+        })
     } else {
       setErrorMessage('Please use correct email address.')
     }

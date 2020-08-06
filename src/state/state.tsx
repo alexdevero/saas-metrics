@@ -22,9 +22,7 @@ export const GlobalContextProvider = (props: GlobalContextProviderUI) => {
 
   return (
     <GlobalContext.Provider value={{ darkMode, handleDarkMode }}>
-      <>
-        {props.children}
-      </>
+      {props.children}
     </GlobalContext.Provider>
   )
 }

@@ -6,12 +6,12 @@ interface GlobalContextUI {
 }
 
 interface GlobalContextProviderUI {
-  children: React.ReactChildren;
+  children: ReactNode;
 }
 any
 export const GlobalContext = createContext({})
 
-export const GlobalContextProvider = (props: any) => {
+export const GlobalContextProvider = (props: GlobalContextProviderUI) => {
   const [darkMode, setDarkMode] = useState('off')
 
   const handleDarkMode = () => {

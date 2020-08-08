@@ -8,7 +8,7 @@ interface GlobalContextUI {
 interface GlobalContextProviderUI {
   children: ReactNode;
 }
-any
+
 export const GlobalContext = createContext({})
 
 export const GlobalContextProvider = (props: GlobalContextProviderUI) => {

@@ -57,9 +57,9 @@ export const Header = () => {
               onClick={handleDarkMode}
             >
               {darkMode === 'off' ? (
-                <span aria-label="a rocket blasting off" role="img">☀️</span>
+                <span aria-label="Sun" title="Toggle dark mode" role="img">☀️ <span className="sr-only">Toggle dark mode</span></span>
               ) : (
-                <span aria-label="a moon off" role="img">🌑</span>
+                <span aria-label="Crescent moon" title="Toggle light mode" role="img">🌙 <span className="sr-only">Toggle light mode</span></span>
               )}
             </button>
           </li>

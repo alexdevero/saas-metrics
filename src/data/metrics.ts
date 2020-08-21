@@ -56,8 +56,14 @@ export const metrics = [
     importance: ''
   },
   {
+    id: 'saasm_0028',
+    name: 'Customer Churn',
+    description: 'Customer churn rate measures how much business you\'ve lost within a certain time period. Churn can help you better understand customer retention by specific insight on activity across specific date or time periods.',
+    importance: ''
+  },
+  {
     id: 'saasm_0009',
-    name: 'Customer Lifetime Value (LTV)',
+    name: 'Customer Lifetime Value (CLV)',
     description: 'Customer lifetime value (CLV) is the average amount of money that your customers pay during their engagement with your company. The metric provides businesses with an accurate portrayal of their growth.',
     importance: ''
   },
@@ -137,6 +143,12 @@ export const metrics = [
     id: 'saasm_0023',
     name: 'Qualified Marketing Traffic',
     description: 'Qualified marketing traffic are typically prospects that has expressed some interest in your company by engaging with its content and provided identification details to convert into a known lead. These leads are qualified by predetermined standards of a “good fit” target and judged more likely to become a customer.',
+    importance: ''
+  },
+  {
+    id: 'saasm_0029',
+    name: 'Revenue Churn',
+    description: 'Measuring revenue churn alongside customer churn helps you evaluate the outside impact some customers might have over others. This is especially important if subscription price is variable depending on the number of seats or users a customer pays for.',
     importance: ''
   },
   {

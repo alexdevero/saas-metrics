@@ -45,7 +45,7 @@
     "@types/react-router-dom": "5.1.5",
     "@typescript-eslint/parser": "3.8.0",
     "http-server": "0.12.3",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.3",
     "typescript": "3.9.5"
   }
 }
